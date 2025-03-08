@@ -5,8 +5,9 @@ import ProjectCard from "./ProjectCards";
 
 import AppoMoFront from "../../Assets/Projects/AppoMoFront.png";
 import profolio from "../../Assets/Projects/profolio.png";
-import taskMate from "../../Assets/Projects/taskMate.png";
-
+import OnlineSuperMarket from "../../Assets/Projects/OnlineSuperMarket.png";
+import MultifunctionalMassagingChair from "../../Assets/Projects/Multifunctional Massaging Chair.png";
+import ByteBlossom from "../../Assets/Projects/ByteBlossoms.png";
 
 
 function Projects() {
@@ -45,12 +46,35 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={taskMate}
+              imgPath={OnlineSuperMarket}
               isBlog={false}
-              title="TaskMate"
-              description="TaskMate is a web-based task management system. Users can create weekly and monthly planners, set reminders, and use a variety of task management tools in addition to customizing their to-do lists. TaskMate streamlines workflow, boosts productivity, and makes time management easier, with a focus on college students while remaining accessible to everyone."
-              ghLink="https://github.com/BLPSankalpana/TaskMate.git"
-              
+              title="OnlineSuperMarket"
+              description="Online Supermarket is a seamless e-commerce platform that enhances shopping, inventory management, and order delivery. Customers can easily browse and purchase products, while inventory keepers and delivery personnel benefit from efficient stock and order management.Built with Spring Boot, Spring Cloud Gateway, Kafka, Keycloak, and Eureka Server, it ensures scalability, security, and smooth operations for all users."
+              ghLink="https://github.com/yesitha/OnlineSuperMarket"
+          
+            />
+            
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={MultifunctionalMassagingChair}
+              isBlog={false}
+              title="MultifunctionalMassagingChair"
+              description="Multifunctional Massaging Chair is a first-year hardware project designed to reduce physical strain from prolonged computer use. It includes a footrest, back massager, seat cooling, and an auto-off system for enhanced comfort, safety, and energy efficiency."
+              ghLink="https://github.com/isuru225/Level-01-Hardware-Project"
+          
+            />
+            
+          </Col>
+
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={ByteBlossom}
+              isBlog={false}
+              title="ByteBlossoms"
+              description="Byte Blossoms is a microservices-based application built with Node.js, integrating user management, order placement, and inventory management. It features RESTful APIs for CRUD operations, ensuring data consistency and seamless communication across distributed databases using MongoDB, MySQL, and Firebase."
+              ghLink="https://github.com/BLPSankalpana/Byte_Blossoms"
+          
             />
             
           </Col>
