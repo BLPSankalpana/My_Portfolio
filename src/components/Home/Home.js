@@ -33,10 +33,7 @@ function Home() {
             </Col>
             <Col md={12} className="home-about-description" >
               <p className="home-about-body">
-              I'm an undergraduate at the University of Moratuwa, Sri Lanka, pursuing a BSc Hons in Information Technology.
-I'm a passionate learner, always eager to explore new technologies and embrace fresh challenges. Planning and strategizing excite me, as I believe in the power of a well-executed plan.
-Collaboration is at the core of my working style. I thrive in team environments, where diverse minds come together to create something extraordinary.
-Above all, my driving force is to make the world a better place for people. I aspire to utilize my knowledge and skills to make a meaningful impact and bring positive change.
+              I'm an IT undergraduate at the University of Moratuwa, passionate about exploring new technologies and solving real-world problems. I thrive on strategic planning, collaboration, and innovation, aiming to make a meaningful impact through technology. Let’s build something extraordinary! 🚀
 <br/><br/>
 <b>Welcome to my digital space !</b>
 

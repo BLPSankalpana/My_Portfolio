@@ -6,6 +6,7 @@ import {
   SiSublimetext,
   SiVisualstudiocode
 } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -21,6 +22,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBlender />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <FaFigma />
       </Col>
 
       
