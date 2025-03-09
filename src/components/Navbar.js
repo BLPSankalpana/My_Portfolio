@@ -8,6 +8,7 @@ import {
   AiFillGithub,
   AiOutlineFundProjectionScreen,
   AiOutlineHome,
+  AiOutlineMedium,
   AiOutlineUser
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
@@ -60,6 +61,16 @@ function NavBar() {
               </li>
               <li className="social-icons">
                 <a
+                  href="https://medium.com/@psankalpana"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMedium />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://www.facebook.com/prasadee.sankalpana"
                   target="_blank"
                   rel="noreferrer"
@@ -102,6 +113,17 @@ function NavBar() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@psankalpana"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMedium />
                 </a>
               </li>
               <li className="social-icons">
